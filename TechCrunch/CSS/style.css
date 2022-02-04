@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", "Arial", "Open Sans";
+    font-size: 16px;
+}
+/*.contain is used to center other content using floats */
+.contain{
+    width: 14%;
+    float: left;
+    height: 10px;
+}
+nav{
+    margin-top: 25px;
+    width: 10%;
+    float: left;
+    display: block;
+    align-items: left;
+
+}
+main{
+    margin-top: 22px;
+    width: 40%;
+    float: left;
+}
+.rightMain{
+
+    width: 22%;
+    float: left;
+    display: block;
+}
+/*
+====================================
+Headers
+====================================
+*/
+h1{
+    font-size: 28px;
+    font-weight: 900;
+}
+h2{
+    margin-top: 5px;
+    font-size: 22px;
+    line-height: 1em;
+}
+h3{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 2em;
+}
+.Second{
+    color: #A0A0A0;
+}
+.h1Right{
+    padding-bottom: 10px;
+}
+.h2Right{
+    border-bottom: 1px solid #A0A0A0;
+}
+/*
+====================================
+Anchors
+====================================
+*/
+a{
+    text-decoration: none;
+    color: #A0A0A0;
+}
+.Extra{
+    color: #F6A317;
+}
+
+/*
+====================================
+Lists
+====================================
+*/
+ul{
+    list-style-type: none;
+    padding-left: 0px;
+    font-size: 20px;
+    line-height: 1.65em;
+}
+/*
+====================================
+Spans
+====================================
+*/
+span{
+    display: block;
+}
+.login{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+/*
+====================================
+Paragraphs
+====================================
+*/
+p{
+    font-size: 14px;
+    color: #A0A0A0;
+    width: 90%;
+}
+/*
+====================================
+Images
+====================================
+*/
+.comp{
+    height: auto;
+    width: 90%;
+}
